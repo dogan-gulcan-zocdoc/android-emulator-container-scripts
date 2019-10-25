@@ -130,9 +130,9 @@ and system image.  After the two are obtained, we can build a Docker image.
 
 
 Given an emulator zip file and a system image zip file, we can build a directory
-that can be sent to `docker build` via the following invocation of `emu_docker`:
+that can be sent to `docker build` via the following invocation of `emu-docker`:
 
-     emu_docker create <emulator-zip> <system-image-zip>  [--dest docker-src-dir
+     emu-docker create <emulator-zip> <system-image-zip>  [--dest docker-src-dir
      (getcwd()/src by default)]
 
 This places all the right elements to run a docker image, but does not build,
